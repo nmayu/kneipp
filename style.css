@@ -1,0 +1,527 @@
+@charset "UTF-8";
+
+html{
+    font-size: 16px;
+    margin:0;
+}
+body{
+    background-color: #FDF4D3;
+    box-sizing: border-box;
+    font-size: 1rem;
+    margin:0;
+    padding:0;
+    width:100%;
+}
+a{
+    text-decoration: none;
+}
+p{
+    color:#545454;
+}
+ul{
+    list-style-type: none;
+}
+#container{
+    min-width:1200px;
+}
+
+
+/*
+head*/
+
+.main_bg{
+    background:url(https://nmayu.github.io/kneipp/main_bg.jpg) no-repeat;
+    background-size: auto;
+    height:100vh;
+    width:100%;
+    object-fit: cover;
+    background-position: center top;
+    position: relative;
+}
+.main_bg:after{
+    position: absolute;
+    content:"";
+    background:url(https://nmayu.github.io/kneipp/punc1.png) repeat-x;
+    height:100px;
+    bottom:0;
+    width:100%;
+}
+.mainVisual{
+    max-width:1200px;
+    margin:0 auto;
+    padding:20px;
+}
+.logo{
+
+}
+.title{
+    margin:0 auto;
+    width:650px;
+}
+.title img{
+    width:600px;
+}
+.sub{
+    margin-top:130px;
+    margin-left:55px;
+}
+.sub img{
+    width:350px;
+}
+
+
+
+/*
+バスタイム*/
+#bathTime{
+}
+.bathTime{
+    margin:0 auto;
+    text-align: center;
+    margin-top:50px;
+}
+.bathTitle img{
+    width:350px;
+}
+.about{
+    line-height:2.5rem;
+}
+.price{
+    font-size: 0.9rem;
+}
+.button_gr{
+    background-color: #1C4B4B;
+    width:300px;
+    border-radius: 5px;
+    margin:0 auto;
+    margin-bottom:30px;
+    padding:10px;
+}
+.button_gr a{
+    font-size: 1.4rem;
+    color:#fff;
+}
+.button_or img{
+    width:320px;
+}
+
+
+.dotsBox{
+    margin-top:50px;
+    position: relative;
+}
+.dotsBox_x{
+    background:url(https://nmayu.github.io/kneipp/c02_bg1.png) no-repeat center top;
+    margin: 0 auto;
+    padding-top:20px;
+}
+.dotsBox:after{
+    position: relative;
+    content:"";
+    background:url(https://nmayu.github.io/kneipp/c02_bg3.png) no-repeat bottom;
+    margin:0 auto;
+    height:50px;
+    width:100%;
+    display: block;
+}
+.dotsBox_x:after{
+    background:url(https://nmayu.github.io/kneipp/c02_bg3.png) no-repeat center bottom;
+    margin:0 auto;
+}
+.dotsBox_y{
+    background:url(https://nmayu.github.io/kneipp/c02_bg2.png) repeat-y center;
+}
+.dotsTitle{
+    margin:0 auto;
+}
+.dotsTitleSp{
+    display: none;
+}
+.dotsTitlePc{
+    display: block;
+    margin: 0 auto;
+    margin-top:20px;
+    width:650px;
+}
+.dotsSolt{
+    margin:0 auto;
+    margin-top:40px;
+}
+.dotsSolt img{
+    display: block;
+    margin:0 auto;
+    width:560px;
+}
+.dotsButton{
+    margin:0 auto;
+    margin-top:40px;
+}
+.dotsButton{
+    width:550px;
+}
+.dotsFlex{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:30px;
+    width:900px;
+    margin:0 auto;
+}
+.button_gr_img img{
+    width:230px;
+    margin:0 auto;
+}
+.check{
+    padding:0;
+    width:100%;
+}
+.check li{
+    color:#4BA227;
+    padding:0;
+    background:url(https://nmayu.github.io/kneipp/c02_check.png)no-repeat;
+    background-size: 17px;
+    padding-left: 20px;
+    width:100px;
+    margin:0 auto;
+}
+.dotsCheckBox{
+    text-align: center;
+}
+
+
+
+
+
+#parsonal{
+    margin-top:50px;
+    background:#FBD84A url(https://nmayu.github.io/kneipp/c03_bg.png)no-repeat center;
+    position: relative;
+}
+#parsonal::before{
+    content:"";
+    display: block;
+    background: url(https://nmayu.github.io/kneipp/punc2.png)no-repeat;
+    position: absolute;
+    width:100%;
+    height:100px;
+}
+.parsonal{
+    padding-top:100px;
+    padding-bottom: 80px;
+}
+.parsonalTitle img{
+    display: block;
+    margin:0 auto;
+}
+.bubbleFlex{
+    display: flex;
+    justify-content: center;
+    height:350px;
+    margin-top:50px;
+}
+.imgFlex{
+    display: flex;
+    height:auto;
+    width:900px;
+    position: relative;
+    margin:0 auto;
+    margin-top:80px;
+}
+.imgLeft{
+    height: 230px;
+    padding-left: 10px;
+}
+.imgRight{
+    margin-top: 60px;
+    width:280px;
+    margin-left: -10px;
+}
+.parsonalButton{
+    text-align: center;
+}
+
+
+
+
+/*
+Store*/
+#store{
+    position: relative;
+    padding:40px 0;
+}
+#store::before{
+    content:"";
+    display: block;
+    background: url(https://nmayu.github.io/kneipp/punc3.png)no-repeat center top;
+    margin:0 auto;
+    position: absolute;
+    width:100%;
+    height:100px;
+    top:-60px;
+}
+#store::after{
+    position:absolute;
+    content:"";
+    background: url(https://nmayu.github.io/kneipp/punc2.png)no-repeat center bottom;
+    width:100%;
+    height:100px;
+    bottom:-80px;
+}
+.store{
+    margin:0 auto;
+    background:url(https://nmayu.github.io/kneipp/shop_bg2.png)no-repeat bottom;
+}
+.storeSp{
+    display:none;
+}
+.store_inner{
+    padding:40px;
+    text-align: center;
+    width:800px;
+    margin:0 auto;
+    height:280px;
+}
+.store::before{
+    position: absolute;
+    background: url(https://nmayu.github.io/kneipp/shop_bg1.png)no-repeat center top;
+    content:"";
+    width:100%;
+    height:100px;
+}
+.storePc{
+    display: block;
+    margin:0 auto;
+    width:700px
+}
+.storeButton img{
+    display: block;
+    width:320px;
+    margin:0 auto;
+}
+
+
+
+/*
+footer*/
+.footer{
+    background-color: #FBD84A;
+    margin:0 auto;
+    padding-top: 50px;
+    padding:50px;
+    text-align: center;
+}
+.sns{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr; 
+    padding:0 1%;
+    width:100%;
+    margin:0 auto;
+    margin-top:50px;
+}
+.sns img{
+    width:210px;
+}
+
+
+
+@media screen and (max-width:750px) {
+    .main_bg{
+        position:relative;
+        background:#ffd800 url(https://nmayu.github.io/kneipp/main_bg_sp.jpg)no-repeat center top;
+        background-size: 100%;
+        height:110vw;
+    }
+    .mainVisual{
+        position: relative;
+    }
+    .logo{
+        position: absolute;
+        width:20%;
+    }
+    .logo img{
+        width:100%;
+    }
+    .title{
+        position: absolute;
+        top:20vw;
+        width:90%;
+    }
+    .title img{
+        width:100%;
+    }
+    .sub{
+        position:absolute;
+        width:80%;
+        margin:0 auto;
+        top: 70vw;
+    }
+    .sub img{
+        width:100%;
+    }
+    .bathTitle{
+        width:85%;
+        margin:0 auto;
+    }
+    .bathTitle img{
+        width:100%;
+    }
+    .dotsBox{
+        width:95%;
+        margin:0 auto;
+        margin-top:50px;
+    }
+    .dotsBox_x{
+        background: url(https://nmayu.github.io/kneipp/c02_bg1_sp.png)no-repeat center top;
+        background-size: 100%;
+    }
+    .dotsBox_y{
+        background: url(https://nmayu.github.io/kneipp/c02_bg2_sp.png)repeat-y center;
+        background-size: 100%;
+        padding:3vw;
+    }
+    .dotsBox::after{
+       background:url(https://nmayu.github.io/kneipp/c02_bg3_sp.png) no-repeat center bottom;
+       background-size: 100%;
+       height:7vw;
+    }
+    .dotsTitle{
+        width:95%;
+    }
+    .dotsTitlePc{
+        display: none;
+    }
+    .dotsTitleSp{
+        display: block;
+        width:95%;
+        margin:0 auto;
+        margin-top:10px;
+    }
+    .dotsSolt{
+        width:100%;
+        display: block;
+        margin:30px auto;
+    }
+    .dotsSolt img{
+        width:100%;
+    }
+    .dotsButton{
+        width:100%;
+    }
+    .dotsButton a img{
+        width:95%;
+        margin:0 auto;
+        display: block;
+    }
+    .dotsFlex{
+        display: block;
+        width:100%;
+    }
+    .yuzu, .ginger{
+        display: flex;
+        width:100%;
+    }
+    .yuzu img , .ginger img{
+        display: block;
+        margin:0 auto;
+        width:50%;
+    }
+    .dotsCheckBox{
+        margin:auto 0;
+    }
+    .parsonalTitle{
+        width:100%;
+    }
+    .parsonalTitle img{
+        width:95%;
+    }
+
+    .bubbleFlex{
+        position: relative;
+        width:100%;
+        height:auto;
+    }
+    .bubbleLeft{
+        display: block;
+        width:30%;
+        height:auto;
+    }
+    .bubbleRight{
+        display: block;
+        width:66%;
+        height:auto;
+    }
+    .imgFlex{
+        position: relative;
+        width:100%;
+        margin:0;
+    }
+    .imgRight{
+        width:50vw;
+        display: block;
+        margin:0;
+        margin-left: 50%;
+    }
+    .imgLeft{
+        position: absolute;
+        width:80%;
+        height:auto;
+        margin-top: 3vw;
+
+    }
+    #store{
+    }
+    
+    .store{
+        background: url(https://nmayu.github.io/kneipp/shop_bg2_sp.png) no-repeat bottom;
+        background-size: 100%;
+        position: relative;
+        margin:0 3vw;
+    }
+    #store::before{
+        content:"";
+        background:url(https://nmayu.github.io/kneipp/punc3.png)no-repeat center top;
+        content:"";
+        margin:0 auto;
+        position: absolute;
+        top:-20vw;
+
+    }
+
+    .store_inner{
+        width:100%;
+        padding:8%;
+        height:auto;
+    }
+    .storePc{
+        display: none;
+    }
+    .storeSp{
+        display: block;
+        width:95%;
+        margin-bottom: 3vw;
+    }
+    .store::before{
+    position: absolute;
+    background: url(https://nmayu.github.io/kneipp/shop_bg1_sp.png)no-repeat center top;
+    content: "";
+    width: 100%;
+    height: 100px;
+    }
+    .sns{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;;
+        width:100%;
+        margin:10px auto;
+    }
+    .sns a{
+        width:45%;
+    }
+    .sns a img{
+        padding:10px;
+        width:100%;
+    }
+    .footer{
+        padding:40px 0 0 0;
+    }
+}
+
